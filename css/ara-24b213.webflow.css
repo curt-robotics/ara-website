@@ -275,12 +275,14 @@ blockquote {
   min-height: 100vh;
   padding-top: 10vw;
   display: flex;
+  
 }
 
 .field-label {
   color: var(--text--off-white);
   margin-bottom: .5rem;
   font-weight: 400;
+
 }
 
 .project-2-container {
@@ -754,7 +756,7 @@ blockquote {
   border-width: 1px 1px 1.5px;
   border-color: black black var(--light-grey);
   color: var(--theme--primary-color);
-  background-color: #fff0;
+  background-color: rgba(0, 0, 0, 0);
   max-width: 100%;
   min-height: 48px;
   margin-bottom: 0;
@@ -793,7 +795,7 @@ blockquote {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
+  width: 40vw;
   display: flex;
   position: relative;
 }
@@ -1192,6 +1194,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   padding: .75rem 1.5rem;
+  margin-top:2rem;
   font-size: 1rem;
   line-height: 1.4em;
   transition: color .4s, border .4s, background-color .4s;
@@ -3251,6 +3254,7 @@ blockquote {
   .form-input-wrapper {
     justify-content: flex-start;
     align-items: center;
+    width:70vw;
   }
 
   .contact-me-section {
