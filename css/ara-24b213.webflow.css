@@ -278,6 +278,8 @@ blockquote {
   
 }
 
+
+
 .field-label {
   color: var(--text--off-white);
   margin-bottom: .5rem;
@@ -3517,4 +3519,16 @@ blockquote {
   }
 }
 
+#ad .project-text-wrapper {
+  
+  flex-direction: column;
+  align-items: center;
+  height: 20vw;
+  padding-top: calc(20vw - 2rem);
+  display: flex;
+  background-image: url(../images/equitana.png); /* Adjust the path if necessary */
+  background-size: auto 50%; /* Make the background cover the whole div */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+}
 
