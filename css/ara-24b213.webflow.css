@@ -158,6 +158,7 @@ blockquote {
 
 .heading-h2 {
   color: var(--white);
+  text-transform: lowercase;
   margin-bottom: 1.5rem;
   font-size: calc(2vw + 2rem);
   font-style: normal;
@@ -185,10 +186,16 @@ blockquote {
 
 .heading-h4 {
   color: var(--white);
+  text-align: center;
+  text-transform: lowercase;
   margin-bottom: .5rem;
   font-size: calc(1vw + 1rem);
   font-weight: 600;
   line-height: 1.3em;
+}
+
+.heading-h4.natalia {
+  text-align: center;
 }
 
 .heading-h6 {
@@ -285,6 +292,7 @@ blockquote {
 
 .field-label {
   color: var(--text--off-white);
+  text-transform: lowercase;
   margin-bottom: .5rem;
   font-weight: 400;
 }
@@ -306,7 +314,7 @@ blockquote {
   background-color: var(--theme--primary-color);
   color: var(--background-black);
   letter-spacing: .5px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   border-radius: 4rem;
   padding: 1rem 1.5rem;
   font-size: .9rem;
@@ -397,7 +405,7 @@ blockquote {
 .project-hero-text-name {
   color: var(--theme--primary-color);
   letter-spacing: 1.1px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.6em;
@@ -463,7 +471,7 @@ blockquote {
 .project-hero-details-title {
   color: var(--text--off-white);
   letter-spacing: 1.7px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   margin-bottom: 8px;
   margin-right: 28px;
   font-size: 1em;
@@ -486,7 +494,7 @@ blockquote {
   color: var(--grey-line);
   text-align: center;
   letter-spacing: .1em;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-size: 1.1em;
   font-weight: 400;
   line-height: 1.3em;
@@ -596,7 +604,7 @@ blockquote {
   z-index: 4;
   color: var(--theme--primary-color);
   letter-spacing: 5px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   justify-content: center;
   align-items: center;
   padding-top: 16px;
@@ -762,6 +770,7 @@ blockquote {
   border-width: 1px 1px 1.5px;
   border-color: black black var(--light-grey);
   color: var(--theme--primary-color);
+  text-transform: lowercase;
   background-color: #fff0;
   max-width: 100%;
   min-height: 48px;
@@ -794,6 +803,7 @@ blockquote {
 }
 
 .text-field.message {
+  text-transform: lowercase;
   min-height: 10rem;
 }
 
@@ -1737,7 +1747,7 @@ blockquote {
 }
 
 .project-heading {
-  text-transform: lowercase;
+  text-transform: uppercase;
   margin-bottom: .5rem;
   font-size: calc(1vw + 1rem);
   font-weight: 600;
@@ -1797,10 +1807,14 @@ blockquote {
 .label-2 {
   color: var(--theme--primary-color);
   letter-spacing: .04em;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-size: calc(.5vw + .5rem);
   font-weight: 500;
   line-height: 1.2em;
+}
+
+.label-2.margin-bottom-8 {
+  text-transform: lowercase;
 }
 
 .skills-grid {
@@ -1816,7 +1830,7 @@ blockquote {
 
 .skill-title {
   color: var(--theme--primary-color);
-  text-transform: lowercase;
+  text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
@@ -2161,7 +2175,7 @@ blockquote {
 .people-gallery {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: row;
   justify-content: stretch;
   justify-items: center;
@@ -2260,6 +2274,7 @@ blockquote {
   grid-column-gap: 10vw;
   grid-row-gap: 10vw;
   background-color: var(--theme--primary-color);
+  flex: 0 auto;
   justify-content: center;
   align-items: center;
   display: inline-flex;
@@ -2425,6 +2440,11 @@ blockquote {
 .image-4 {
   width: 100%;
   display: block;
+}
+
+.image-5 {
+  filter: invert();
+  width: 1.5rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -3541,6 +3561,10 @@ blockquote {
     line-height: 1em;
   }
 
+  .heading-h4.natalia {
+    font-size: 1.5em;
+  }
+
   .heading-h6 {
     margin-bottom: .5rem;
   }
@@ -4027,7 +4051,7 @@ blockquote {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e94-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e9a-82f28602 {
+#w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e94-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e9a-82f28602, #w-node-d644d1b2-cb38-dc0d-b999-86bc6eae4215-82f28602 {
   align-self: start;
 }
 
@@ -4048,7 +4072,7 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e94-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e9a-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0ea3-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0eb3-82f28602 {
+  #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e94-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0e9a-82f28602, #w-node-d644d1b2-cb38-dc0d-b999-86bc6eae4215-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0ea3-82f28602, #w-node-ecd08cd9-cbb6-711c-e2a0-701a310f0eb3-82f28602 {
     justify-self: center;
   }
 }
