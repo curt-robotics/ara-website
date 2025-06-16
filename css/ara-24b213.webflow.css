@@ -1492,6 +1492,10 @@ blockquote {
   top: 8.5rem;
 }
 
+.title-wrapper-sticky.oldsection {
+  margin-top: 5vw;
+}
+
 .press-logos-grid {
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
@@ -2489,7 +2493,7 @@ blockquote {
 .div-block-6 {
   justify-content: space-between;
   align-items: center;
-  margin-top: 3vw;
+  margin-bottom: 1vw;
   display: flex;
 }
 
@@ -4098,6 +4102,10 @@ blockquote {
     color: var(--text--pure-black);
     font-size: 10vw;
     line-height: 10vw;
+  }
+
+  .div-block-6 {
+    margin-bottom: 5vw;
   }
 }
 
