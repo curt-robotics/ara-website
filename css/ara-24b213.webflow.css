@@ -2172,6 +2172,12 @@ blockquote {
   top: 25vh;
 }
 
+.div-block.media {
+  background-image: linear-gradient(to bottom, transparent, transparent), linear-gradient(180deg, black, #87878700 27%, #4a4a4a00 79%, var(--text--pure-black) 90%), url('../images/title.JPEG');
+  background-position: 0 0, 0 0, 50%;
+  background-size: auto, auto, cover;
+}
+
 .people-gallery {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -2207,6 +2213,7 @@ blockquote {
   align-items: center;
   width: 100%;
   height: 100%;
+  padding: 1vw 5vw;
   display: flex;
 }
 
@@ -2222,8 +2229,9 @@ blockquote {
 }
 
 .text-block.green {
-  font-size: 1.2rem;
+  font-size: 1.5vw;
   font-style: normal;
+  line-height: 1.5vw;
 }
 
 .paragraph-33 {
@@ -2445,6 +2453,44 @@ blockquote {
 .image-5 {
   filter: invert();
   width: 1.5rem;
+}
+
+.button {
+  color: var(--text--pure-black);
+  text-align: center;
+  width: 40vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button.gelb {
+  background-color: var(--theme--primary-color);
+  color: var(--text--pure-black);
+}
+
+.section-2 {
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  margin-top: 5vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+}
+
+.heading-8 {
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5vw;
+  display: flex;
+}
+
+.div-block-6 {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3vw;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -2962,10 +3008,14 @@ blockquote {
   }
 
   .div-block.media {
-    background-image: linear-gradient(to bottom, #00000080, #00000080), linear-gradient(180deg, black 1%, #87878700 31%, #4a4a4a00 63%, var(--text--pure-black) 80%), url('../images/website-edit.jpg');
+    background-image: linear-gradient(to bottom, #00000080, #00000080), linear-gradient(180deg, black 1%, #87878700 31%, #4a4a4a00 63%, var(--text--pure-black) 80%), url('../images/title.JPEG');
     background-position: 0 0, 0 0, 50% 0;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, 100%;
+  }
+
+  .div-block-2 {
+    padding: 0;
   }
 
   .text-block {
@@ -3436,14 +3486,18 @@ blockquote {
   }
 
   .div-block.media {
-    background-image: linear-gradient(to bottom, #00000080, #00000080), linear-gradient(180deg, black, #87878700 31%, #4a4a4a00 48%, var(--text--pure-black) 61%), url('../images/website-edit.jpg');
-    background-position: 0 0, 0 0, 50% 0;
+    background-image: linear-gradient(to bottom, #00000080, #00000080), linear-gradient(180deg, black, #87878700 31%, #4a4a4a00 48%, var(--text--pure-black) 61%), url('../images/title.JPEG');
+    background-position: 0 0, 0 0, 50% 100%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
   }
 
   .people-gallery {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .div-block-2 {
+    padding: 0;
   }
 
   .text-block {
@@ -3951,9 +4005,9 @@ blockquote {
   }
 
   .div-block.media {
-    background-image: linear-gradient(to bottom, #00000080, #00000080), linear-gradient(180deg, black 8%, #87878700 31%, #4a4a4a00 85%, var(--text--pure-black)), url('../images/website-edit.jpg');
+    background-image: linear-gradient(to bottom, #00000080, #00000080), linear-gradient(180deg, black 8%, #87878700 31%, #4a4a4a00 85%, var(--text--pure-black)), url('../images/title.JPEG');
     object-fit: fill;
-    background-position: 0 0, 0 0, 58% 0;
+    background-position: 0 0, 0 0, 30%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
     height: 70vh;
@@ -3968,6 +4022,10 @@ blockquote {
 
   .image {
     width: 30%;
+  }
+
+  .div-block-2 {
+    padding: 0;
   }
 
   .text-block {
